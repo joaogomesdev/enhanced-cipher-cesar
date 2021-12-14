@@ -2,8 +2,11 @@ public class EnchancedCipherCesar {
 
 
     public static void main(String[] args) {
-        for(String arg: args){
-            System.out.println(arg);
-        }
+
+            String hash = args[0];
+            String plugboard = args[1];
+            String wordListPath = args[2];
+
+            WordListParser.execute(wordListPath);
     }
 }

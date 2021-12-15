@@ -4,7 +4,7 @@ import java.security.NoSuchAlgorithmException;
 
 public class Sha512Cyptor {
 
-    String execute(String input){
+    static String execute(String input){
         try {
             // getInstance() method is called with algorithm SHA-512
             MessageDigest md = MessageDigest.getInstance("SHA-512");

@@ -14,6 +14,8 @@ public class EnchancedCipherCesar {
             String plugboard = args[1];
             String wordListPath = args[2];
 
+
+
             List<String> wordList = WordListParser.execute(wordListPath);
 //            for (String word: wordList){
 //                SaltGenerator.execute(word);

@@ -18,12 +18,10 @@ public class EnchancedCipherCesar {
 
             List<String> wordList = WordListParser.execute(wordListPath);
 //            for (String word: wordList){
-//                SaltGenerator.execute(word);
+                SaltGenerator.execute(wordList);
 //                PlugboardParser.execute(plugboard, word);
 //            }
 
-            String result = Sha512Cyptor.execute("NPTXKFH");
-        System.out.println(result);
 
 
 

@@ -9,22 +9,20 @@ public class WordListParser {
 
 
 
-    static List<String> execute(String path) {
+    static List<String> execute(String path) throws FileNotFoundException {
         List<String> wordList = new ArrayList<>();
         try {
-            File myObj = new File(path);
-            Scanner myReader = new Scanner(myObj);
+            File file = new File(path);
+            Scanner myReader = new Scanner(file);
             while (myReader.hasNextLine()) {
-                String data = myReader.nextLine();
-                wordList.add(data);
+                String word = myReader.nextLine();
+                wordList.add(word);
             }
             myReader.close();
             return wordList;
         } catch (FileNotFoundException e) {
-            System.out.println("An error occurred.");
-            e.printStackTrace();
+            throw  new FileNotFoundException(e.getMessage());
         }
-        return wordList;
     }
 
 

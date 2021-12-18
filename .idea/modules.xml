@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/EnhancedCipherCesar.iml" filepath="$PROJECT_DIR$/EnhancedCipherCesar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BreakingEnigma.iml" filepath="$PROJECT_DIR$/BreakingEnigma.iml" />
     </modules>
   </component>
 </project>

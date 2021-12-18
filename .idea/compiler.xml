@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="EnhancedCipherCesar" />
+        <module name="BreakingEnigma" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="EnhancedCipherCesar" target="1.7" />
+      <module name="BreakingEnigma" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
